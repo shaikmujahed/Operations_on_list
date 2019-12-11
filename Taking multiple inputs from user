@@ -1,0 +1,58 @@
+"'Python program showing how to 
+ multiple input using split "'
+
+x,y = input("Enter two values: ").split()
+
+print("Number of boys: ",x)
+print("Number of girls: ",y)
+
+
+'" taking three inputs at a time from user"'
+x,y,z = input("Enter three value saperated by spaces: ").split()
+print("Total Number of students: ",x)
+print("Number of boys: ",y)
+print("Number of girls: ",z)
+
+
+'"taking two inputs at a time and store them using format method"'
+a,b = input("Enter two values: ").split()
+print("First number is {} and second number is {}".format(a,b))
+
+
+
+'"takin multiple inputs at a time and type casting list() function"'
+
+x = list(map(int,input("Enter a multiple value: ").split()))
+print("List of students: ",x
+
+
+'"python program showing how to take multiple input using list comprehension frome a user"'
+
+"taking two input at a time"
+
+x ,y = [int(x) for x in input("Enter two value: ").split()]
+print("First number is: ",x)
+print("Second number is: ",y)
+
+'''taking three input at a time'''
+
+x,y,z = [int(x) for x in input('Enter three values: ').split()]
+print("First number is: ",x)
+print("Second number is: ",y)
+print("Third number is: ",z)
+
+
+'''taking two number at a time '''
+
+x,y = [int(x) for x in input("Enter two values: ").split()]
+print("First number is {} and Second number is {} ".format(x,y))
+
+'''taking multiple values at a time'''
+
+x =[int(x) for x in input("Enter multiple values: ").split()]
+print("Number of list is: ", x)
+
+
+
+
+
