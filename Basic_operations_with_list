@@ -6,9 +6,6 @@ list1=[20,20,30,40,50,60,70,80,90,100]
 myFun(list1)
 print(list1)
 
-
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
 def myFun(x):
 # After below line link of x with previous objects get broken.
 #  A new object assigned to x
@@ -21,7 +18,7 @@ lst=[10,11,12,13,14,15]
 myFun(lst)
 print(lst)
 
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 # Another example of a new object is assigned to a varible
 def myFun(x):
     x=10
@@ -29,8 +26,6 @@ def myFun(x):
 x=20
 myFun(x)
 print(x)
-
-#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 # swapping objects values
@@ -46,7 +41,6 @@ print(x)
 print(y)
 
 
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # python program to demonstrate default arguments
 
 def myfun(x, y=50):
@@ -56,7 +50,6 @@ def myfun(x, y=50):
 myfun(40)
 
 
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # python program to demonstrate keyword and arguments
 
 def socialMedia(socialMedia_N, userName):
@@ -66,7 +59,6 @@ socialMedia(socialMedia_N='Instagram : ', userName='shaikmujahedulislam')
 socialMedia(socialMedia_N='LinkedIn  : ', userName='shaik Mujahed')
 
 
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # python program to illustrate
 # *kargs for variable number of keyword arguments
 
@@ -77,8 +69,6 @@ def myfun(**kwargs):
 myfun(socialMedia='Instagram',userName='shaikmujahedulislam', password='123')
 
 
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
 # python program illustrate *args for variable number of arguments
 
 def myfun(*argsv):
@@ -88,7 +78,6 @@ def myfun(*argsv):
 myfun('Hello', 'Welcome', 'to', 'New Generation programming language')
 
 
-# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # python function to illustrate for varialble number of keyword arguments
 # *kargs
 
